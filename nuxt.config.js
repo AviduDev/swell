@@ -7,7 +7,7 @@ const vaultUrl = process.env.SWELL_VAULT_URL;
 
 export default () => {
   return {
-    target: editorMode ? 'server' : 'static',
+    target: 'serverless',
 
     build: {
       analyze: !isProduction,
